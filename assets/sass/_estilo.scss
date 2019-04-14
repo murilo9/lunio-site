@@ -1,0 +1,106 @@
+header{
+    nav{
+        ul{
+            display: flex;
+            justify-content: flex-end;
+            list-style-type: none;
+            padding: 1em;   /* Para corrigir bug */
+            background-image: linear-gradient(#bbb, white);
+            li{
+                display: inline;
+                a{
+                    padding: 1em;
+                    color: black;
+                    &, &:visited, &:active{
+                        text-decoration: none;
+                    }
+                    &:hover{
+                        text-decoration: none;
+                        border-bottom: 1px solid gray;
+                    }
+                }
+            }
+        }
+    }
+    .header-content{
+        padding: 3em 0 3em 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .header-content-title{
+            display: inline-flex;
+            align-items: center;
+            margin-bottom: 1em;
+            h1{
+                display: inline-block;
+                font-size: 4em;
+            }    
+        }
+        .header-content-subtitle{
+            font-size: 1.2em;
+        }
+    }
+}
+main{
+    .main-1, .main-2, .main-3{
+        padding: 4em;
+        .main-img-wrapper i{
+            font-size: 13em;
+        }
+        section{
+            padding-left: 5em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center
+        }
+    }
+    .main-1{
+        background-image: linear-gradient(120deg, hsl(217, 90%, 61%), transparent, transparent, transparent);
+    }
+    .main-2{
+        background: linear-gradient(240deg, hsl(180, 100%, 50%), transparent, transparent, transparent);
+    }
+    .main-3{
+        background-image: linear-gradient(120deg, hsl(144, 100%, 50%), transparent, transparent, transparent);
+    }
+    .main-4{
+        padding: 4em;
+        p.main-4-subtitle{
+            margin-bottom: 3em;
+            font-size: 1.5em;
+        }
+        section.brands{
+            margin-bottom: 2em;
+            .brand-box{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0 3em;
+                i{
+                    font-size: 8em;
+                }
+                p{
+                    text-align: justify;
+                }
+                h2{
+                    font-size: 1.5em;
+                    font-weight: bold;
+                    margin-top: 0.5em;
+                }
+                .brand-i-1{
+                    color: hsl(217, 90%, 61%);
+                }
+                .brand-i-2{
+                    color: aqua;
+                }
+                .brand-i-3{
+                    color: #00ff66;
+                }
+            }
+        }
+    }
+}
+footer{
+    padding: 2em;
+    background-image: linear-gradient(transparent, #bbb, #bbb, #bbb)
+}
