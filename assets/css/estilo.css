@@ -61,8 +61,10 @@ main .main-1 section, main .main-2 section, main .main-3 section {
   padding-left: 5em;
   display: flex;
   flex-direction: column;
-  justify-content: center header h3;
-  justify-content-margin-bottom: 1em;
+  justify-content: center;
+}
+main .main-1 section header h3, main .main-2 section header h3, main .main-3 section header h3 {
+  margin-bottom: 1em;
 }
 main .main-1 {
   background-image: linear-gradient(120deg, #4287f5, transparent, transparent, transparent);
