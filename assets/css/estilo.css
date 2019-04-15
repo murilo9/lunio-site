@@ -3,6 +3,7 @@ html, body, header, nav, ul {
   margin: 0;
   letter-spacing: 0.15em;
   font-family: "Calibri Light";
+  color: #222;
 }
 
 h1 {
@@ -60,7 +61,8 @@ main .main-1 section, main .main-2 section, main .main-3 section {
   padding-left: 5em;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center header h3;
+  justify-content-margin-bottom: 1em;
 }
 main .main-1 {
   background-image: linear-gradient(120deg, #4287f5, transparent, transparent, transparent);
@@ -76,7 +78,7 @@ main .main-4 {
 }
 main .main-4 p.main-4-subtitle {
   margin-bottom: 3em;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 main .main-4 section.brands {
   margin-bottom: 2em;
@@ -94,7 +96,7 @@ main .main-4 section.brands .brand-box p {
   text-align: justify;
 }
 main .main-4 section.brands .brand-box h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
   margin-top: 0.5em;
 }

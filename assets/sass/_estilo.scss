@@ -52,6 +52,9 @@ main{
             display: flex;
             flex-direction: column;
             justify-content: center
+            header h3{
+                margin-bottom: 1em;
+            }
         }
     }
     .main-1{
@@ -67,7 +70,7 @@ main{
         padding: 4em;
         p.main-4-subtitle{
             margin-bottom: 3em;
-            font-size: 1.5em;
+            font-size: 1.2em;
         }
         section.brands{
             margin-bottom: 2em;
@@ -83,7 +86,7 @@ main{
                     text-align: justify;
                 }
                 h2{
-                    font-size: 1.5em;
+                    font-size: 1.2em;
                     font-weight: bold;
                     margin-top: 0.5em;
                 }
