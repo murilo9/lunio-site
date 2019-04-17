@@ -2,8 +2,11 @@ html, body, header, nav, ul{
     padding: 0;
     margin: 0;
     letter-spacing: 0.15em;
-    font-family: 'Calibri Light';
+    font-family: 'Calibri Light', 'Helvetica', 'Arial';
     color: #222;
+}
+ul{
+    list-style-type: none;
 }
 h1{
     font-size: 34pt;

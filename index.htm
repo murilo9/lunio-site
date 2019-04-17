@@ -5,18 +5,32 @@
     <title>Lunio</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link href="assets/css/estilo.css" type="text/css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="default-nav">
                 <li><a href='#'>Sobre</a></li>
                 <li><a href='#'>Github</a></li>
                 <li><a href='#'>Registrar</a></li>
                 <li><a href='#'>Login</a></li>
             </ul>
+            <div class="mobile-nav dropdown">
+                <button type="button" class="btn btn-ŕimary dropdown-toggle" data-toggle="dropdown">
+                    <i class="material-icons">dehaze</i>
+                </button>
+                <div class="dropdown-menu">
+                    <a href='#' class="dropdown-item">Sobre</a>
+                    <a href='#' class="dropdown-item">Github</a>
+                    <a href='#' class="dropdown-item">Registrar</a>
+                    <a href='#' class="dropdown-item">Login</a>
+                </div>
+            </div>
         </nav>
         <div class="header-content">
             <div class="header-content-title">
