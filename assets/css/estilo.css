@@ -115,7 +115,8 @@ footer {
   header nav ul.default-nav {
     display: none; }
   header nav .mobile-nav {
-    display: block; }
+    display: block;
+    padding: 0.8em; }
   header .header-content {
     padding: 1em; }
     header .header-content .header-content-title {
