@@ -10,6 +10,14 @@ h1 {
   font-size: 34pt;
 }
 
+@keyframes logo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
 header nav ul {
   display: flex;
   justify-content: flex-end;
@@ -46,6 +54,13 @@ header .header-content .header-content-title {
 header .header-content .header-content-title h1 {
   display: inline-block;
   font-size: 4em;
+  margin-left: 0.5em;
+}
+header .header-content .header-content-title img.logo {
+  animation-name: logo;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 header .header-content .header-content-subtitle {
   font-size: 1.2em;
