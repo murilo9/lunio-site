@@ -1,3 +1,6 @@
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: url("../font/caviardreams.ttf"); }
 html, body, header, nav, ul {
   padding: 0;
   margin: 0;
@@ -13,9 +16,9 @@ h1 {
 
 @keyframes logo {
   from {
-    transform: rotate(0deg); }
+    transform: rotate(-20deg); }
   to {
-    transform: rotate(359deg); } }
+    transform: rotate(20deg); } }
 header nav ul.default-nav {
   display: flex;
   justify-content: flex-end;
@@ -47,12 +50,14 @@ header .header-content {
     header .header-content .header-content-title h1 {
       display: inline-block;
       font-size: 4em;
-      margin-left: 0.5em; }
+      margin-left: 0.5em;
+      font-family: 'Caviar Dreams'; }
     header .header-content .header-content-title img.logo {
       animation-name: logo;
-      animation-duration: 15s;
+      animation-duration: 2s;
       animation-iteration-count: infinite;
-      animation-timing-function: linear; }
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out; }
   header .header-content .header-content-subtitle {
     font-size: 1.2em; }
 
@@ -108,8 +113,10 @@ footer {
   /* Tablet */
   main .main-1 .main-img-wrapper i, main .main-2 .main-img-wrapper i, main .main-3 .main-img-wrapper i {
     font-size: 8em; }
-  main .main-4 section.row-brands .brand-box {
-    padding: 1em; } }
+  main .main-4 {
+    padding: 1em; }
+    main .main-4 section.brands .brand-box {
+      padding: 1em; } }
 @media only screen and (max-width: 425px) {
   /* Celular */
   header nav ul.default-nav {

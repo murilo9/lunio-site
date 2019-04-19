@@ -1,7 +1,8 @@
 
 @keyframes logo{
-    from{transform: rotate(0deg);}
-    to{transform: rotate(359deg);}
+    from{transform: rotate(-20deg)}
+    to{transform: rotate(20deg)}
+
 }
 header{
     nav{
@@ -43,12 +44,14 @@ header{
                 display: inline-block;
                 font-size: 4em;
                 margin-left: 0.5em;
+                font-family: 'Caviar Dreams';
             }    
             img.logo{
                 animation-name: logo;
-                animation-duration: 15s;
+                animation-duration: 2s;
                 animation-iteration-count: infinite;
-                animation-timing-function: linear;
+                animation-direction: alternate;
+                animation-timing-function: ease-in-out;
             }
         }
         .header-content-subtitle{
@@ -133,7 +136,8 @@ footer{
             }
         }
         .main-4{
-            section.row-brands{
+            padding: 1em;
+            section.brands{
                 .brand-box{
                     padding: 1em;
                 }
